@@ -1,13 +1,14 @@
 body
 {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fredoka', sans-serif;
     background-color: rgb(0, 0, 0);
 }
 
+/*header*/
+
 .header
 {
-    background-color: #FFFFFF;
     margin: 1%;
     padding-left: 10%;
     padding-right: 10%;
@@ -36,12 +37,99 @@ ul a
     color: #e3b062;
     text-decoration: none;
 }
-ul a:hover
-{
-    color: #32b9cd;
-}
 
 .agora
 {
     font-weight: 600;
+}
+
+/*Banner*/
+
+.banner-home
+{
+    height: 500px;
+    background-image: url("bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.container2
+{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-home .container2
+{
+    height: 500px;
+    align-items: center;
+}
+
+.banner-home p
+{
+    color:#FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    width: 200px;
+    margin-left: 350px;
+}
+span
+{
+    font-weight: bolder;
+}
+
+/*login*/
+
+.banner-login
+{
+    height: 500px;
+    background-image: url("bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-login .card
+{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card
+{
+    margin-top: 20px;
+    
+}
+
+.btn
+{
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #e75459;
+    cursor: pointer;
+}
+
+input
+{
+    height: 30px;
+    border: 2px solid #e75459;
+    border-radius: 4px;
 }
